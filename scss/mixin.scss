@@ -1,0 +1,13 @@
+@mixin font_set($font-family, $font-display, $font-weight, $font-style){
+    font-family: $font-family;
+    font-display: $font-display;
+    font-weight: $font-weight;
+    font-style: $font-style;
+}
+
+@mixin font($font-family, $font-weight, $font-size, $line-height){
+    font-family: $font-family;
+    font-weight: $font-weight;
+    font-size: $font-size;
+    line-height: $line-height;
+}
